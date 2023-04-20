@@ -36,6 +36,7 @@ The last comment block of each slide will be treated as slide notes. It will be 
 
 ---
 transition: fade-out
+layout: two-cols
 ---
 
 # Who am I?
@@ -84,6 +85,11 @@ little bit more about me
 
 </v-click>
 
+::right::
+
+<div class='flex items-center h-full'>
+  <Intro />
+</div>
 
 <!--
 You can have `style` tag in markdown to override the style for the current page.
@@ -169,13 +175,54 @@ Here is another comment.
 layout: default
 ---
 
-# Table of contents
+# Time spent at UMSL
+What was life like as a student through the years
 
-```
-<Toc minDepth="1" maxDepth="5"></Toc>
-```
+<v-click>
 
-<Toc></Toc>
+- Started as an accounting major, didn't like class though
+
+</v-click>
+<v-click>
+
+- Got a mentor, he recommended:
+  - I drop accounting for IS and IB
+  - Sign up for the clubs for each
+
+</v-click>
+
+<v-click>
+
+- Started attending events for:
+  - IS Programming Club
+  - IB Honor Society
+
+</v-click>
+
+
+<v-click>
+
+- Realized I wanted to write code, not manage people
+
+</v-click>
+
+<v-click>
+
+- Co-op Monsanto (6 months)
+
+</v-click>
+
+<v-click>
+
+- Full time gig at TDK (left after 6 months)
+
+</v-click>
+
+<v-click>
+
+- Graduated December 2018
+
+</v-click>
 
 ---
 transition: slide-up

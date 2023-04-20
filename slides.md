@@ -439,7 +439,7 @@ Don't get caught up doing stuff that doesn't help you in the long run
 - Don't be a lead in your first five years
 - Always have others on your team to compete with even if they hit the same level 
  -->
- 
+
 ---
 
 # Mistakes I have made in my career
@@ -534,6 +534,7 @@ If you are interviewing outside of St. Louis (or a few companies here)
   - Lots of candidates at once (500 plus sometimes for vetting)
 
 ---
+
 # Offers
 What to know
 
@@ -544,6 +545,7 @@ What to know
 - Benefits
 
 ---
+
 # Daily life
 for me at least
 
@@ -573,7 +575,10 @@ things I have realized over the years
   - Strive for less complexity over redundancy
 - Debugging is everything
 
+
+
 ---
 layout: center
 ---
+
 # Questions

@@ -258,7 +258,14 @@ layout: statement
 # Set myself up
 ## for luck
 
-
+<!-- 
+By attending the meetings and clubs
+I had exposure to events
+FOund out that umsl was open hosting interviews for Monsanto
+Signed up
+Got job
+Had I not been in the club for IS or IB I would not have heard about this stuff
+ -->
 ---
 layout: quote
 ---
@@ -266,16 +273,12 @@ layout: quote
 "The meeting of preparation with opportunity generates the offspring we call luck." - Tony Robbins
 
 <!-- 
-Good things happen to those that are prepared for them
-Didn't know much at the time
-Barely knew anything if I am being honest
-I did have interests though and understood some cool stuff
-But really it came down to being prepared by knowing about it
-And showing up
-Only one selected for ELD program (which made a huge difference)
-You get more training on the job
-Got trained in React and Node
-
+The facts at the time
+- Barely knew programming
+- Had no idea wht I was signing myself up for our how apps worked
+- But I knew I wanted to learn how
+- Able to see gap in school knowledge vs what for instance my friend from 
+the programming club Mo had.
  -->
 
 ---
@@ -299,15 +302,34 @@ layout: default
 ---
 
 # Filling in the gaps
-Life after the first taste
+My last six months of UMSL
 
-- Monsanto ending
-- TDK op
+- TDK
 - Capstone
-- TDK status 
-- Leaving TDk
-- Joining Perficient
+- Leaving TDK to join Perficient
 
+<!-- 
+TDK was a place I knew about because I had meet someone who worked
+there through yet again attending the IS meetings
+
+Because of this I was able to come on as a team member while still in college
+
+Differences between TDK and Monsanto
+
+
+Capstone work start
+- Driver app
+- Deadlines 
+- Pushing myself to the max
+- Nice working app
+- 3 apps actually (2 front ends and one backend)
+
+Leaving TDk 
+ -->
+
+---
+layout: two-cols
+---
 
 ---
 layout: end

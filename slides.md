@@ -115,31 +115,6 @@ h1 {
 
 <!--
 
-talking points
-
-using focus to reach your goals
-interviewing in big tech
-life for me
-whats next
-
-
-time spent working at launch code
-  leaving launch code
-
-
-
-mistakes to learn from
-
-nft project
-
-time spent interviewing (a lot)
-  getting told no
-
-starting at sonos
-  getting promoted at sonos
-  where next
-
-
 hot takes
 micro services
 complexity
@@ -445,7 +420,6 @@ Don't get caught up doing stuff that doesn't help you in the long run
 - Know when to cut your losses
 - Never be the smartest person in the room
 
-
 <!-- 
 - What I mean by this, is your goal to be in meetings 
 - Or is your goal to spend time writing code
@@ -465,6 +439,7 @@ Don't get caught up doing stuff that doesn't help you in the long run
 - Don't be a lead in your first five years
 - Always have others on your team to compete with even if they hit the same level 
  -->
+ 
 ---
 
 # Mistakes I have made in my career
@@ -516,6 +491,89 @@ The **s\*\*t**  I did right 🤬
 - Syncing exploration with work
 - Learning how to be self managed
 
+
 ---
-layout: end
+layout: default
 ---
+
+# Interviewing 
+What matters
+
+- Problem solving
+- Explaining yourself
+- Asking the right questions
+- Knowing that its ok to not know
+- Understanding that no doesn't mean never
+
+
+---
+
+# Local Interview
+If you are interviewing in St. Louis
+
+  
+- Meeting with the hiring manager or recruiter
+  - Coding challenge
+  - Behavioral interview
+  - Sometimes third challenge
+
+---
+
+# Tech Focused Role Interview
+If you are interviewing outside of St. Louis (or a few companies here)
+
+- Recuiter meeting
+- Meeting with hiring manager
+- Vetting code challenge
+- Panel interview (4 hours), sometimes referred to as "On Site Interview"
+  - Code challenge
+  - Code challenge with existing code (fixing bugs)
+  - Behavioral
+  - System Design
+- Gaps in process sometimes
+  - Lots of candidates at once (500 plus sometimes for vetting)
+
+---
+# Offers
+What to know
+
+- Sometimes signing bonuses are offered
+- Base (important)
+- Stock
+- Bonuses
+- Benefits
+
+---
+# Daily life
+for me at least
+
+- Web technology
+- Senior engineer
+- Self managed
+
+---
+# Hot takes
+things I have realized over the years
+
+- Microservices are a solution to an organizational problem
+- Java is usually not the right choice
+  - I love the JVM but their is a stigma around it
+- Multiple git repos is more manageable
+- Remove blockers and manual processes
+- Not everything needs a meeting
+- Don't write pointless tests
+  - less unit
+  - more integration
+- Find the sweet spot on working on stuff you like to learn about
+- Teams usually don't change their minds
+- Reduce complexity
+- Don't re-invent the wheel
+  - Know how to make one 
+  - Know when to use one
+  - Strive for less complexity over redundancy
+- Debugging is everything
+
+---
+layout: center
+---
+# Questions

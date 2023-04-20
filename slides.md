@@ -20,7 +20,7 @@ info: |
 drawings:
   persist: false
 # page transition
-transition: slide-left
+transition: slide-up
 # use UnoCSS
 css: unocss
 ---
@@ -37,10 +37,14 @@ The last comment block of each slide will be treated as slide notes. It will be 
 ---
 transition: fade-out
 layout: two-cols
+preload: false
 ---
+<span v-motion :initial="{opacity: 0, scale: .2}" :enter="{opacity: 1, scale: 1, transition: { type: 'keyframes', duration: 1200, ease: 'easeIn'}}">
 
 # Who am I?
 little bit more about me
+
+</span>
 
 <v-click>
 
@@ -87,7 +91,7 @@ little bit more about me
 
 ::right::
 
-<div class='flex items-center h-full'>
+<div v-motion :initial="{opacity: 0, scale: .2}" :enter="{opacity: 1, scale: 1, transition: { type: 'keyframes', duration: 700, ease: 'easeIn'}}" class='flex items-center h-full'>
   <Intro />
 </div>
 
@@ -104,15 +108,6 @@ interviewing in big tech
 life for me
 whats next
 
-toc
-
-intro
-
-
-got one at monsanto
-  time spent
-  tools
-  learnings
 
 had to leave but joined tdk
   what it was like
@@ -169,10 +164,16 @@ Here is another comment.
 
 ---
 layout: default
+transition: slide-right
+preload: false
 ---
+
+<div v-motion :initial="{ scale: .2}" :enter="{scale: 1, transition: {type: 'keyframes', ease: 'easeOut', duration: 500 }}">
 
 # Time spent at UMSL
 What was life like as a student through the years
+
+</div>
 
 <v-click>
 
@@ -222,7 +223,7 @@ What was life like as a student through the years
 
 <div class="w-full flex justify-end items-start -mt-42">
 
-<div class='w-md'>
+<div v-motion :initial="{y: 200, scale: 2}" :enter="{y: 0, scale: 1, transition: {type: 'spring', stiffness: 20, damping: 10, mass: 3 }}" class='w-md'>
 
 <Graduation />
 
@@ -234,8 +235,10 @@ What was life like as a student through the years
 transition: slide-up
 layout: center
 level: 2
+preload: false
 ---
-<div class="text-center">
+
+<div class="text-center" v-motion :initial="{y: -100, scale: 2, opacity: .3}" :enter="{y: 0, scale: 1, opacity: 1, transition: {type: 'keyframes', duration: 1000, ease: 'backInOut'}}">
 
 # How I got my first gig
 What it took to get into Monsanto's Co-op and why it was important
@@ -244,135 +247,69 @@ What it took to get into Monsanto's Co-op and why it was important
 
 <div class="flex justify-center items-center">
 
-<div class="w-md">
+<div v-motion :initial="{opacity: .2, scale: .2}" :enter="{opacity: 1, scale: 1, transition: {type: 'keyframes', duration: 1000, ease: 'backInOut'}}" class="w-md">
   <Vision />
 </div>
 </div>
 
+---
+layout: statement
+---
+
+# Set myself up
+## for luck
+
+
+---
+layout: quote
+---
+
+"The meeting of preparation with opportunity generates the offspring we call luck." - Tony Robbins
 
 <!-- 
-Pure luck
-Having interest in the right things
-being open and showing up
-Knowing about it
+Good things happen to those that are prepared for them
+Didn't know much at the time
+Barely knew anything if I am being honest
+I did have interests though and understood some cool stuff
+But really it came down to being prepared by knowing about it
+And showing up
+ -->
+ <!-- 
 Only one selected for ELD program (which made a huge difference)
 You get more training on the job
+Got trained in React and Node
 
  -->
 
 ---
-layout: image-right
-image: https://source.unsplash.com/collection/94734566/1920x1080
+layout: two-cols
 ---
 
-# Code
+# Why it mattered
+Training on the job and beyond
 
-Use code snippets and get the highlighting directly![^1]
+- Was able to work with a group of other new employees
+- Everyone else in the group was a fresh college graduate though
+- Learned about new tools and how pieces fit together
+- Learned how big of an impact watching some videos on the side could have
 
-```ts {all|2|1-6|9|all}
-interface User {
-  id: number
-  firstName: string
-  lastName: string
-  role: string
-}
+::right::
 
-function updateUser(id: number, update: User) {
-  const user = getUser(id)
-  const newUser = { ...user, ...update }
-  saveUser(id, newUser)
-}
-```
-
-<arrow v-click="3" x1="400" y1="420" x2="230" y2="330" color="#564" width="3" arrowSize="1" />
-
-[^1]: [Learn More](https://sli.dev/guide/syntax.html#line-highlighting)
-
-<style>
-.footnotes-sep {
-  @apply mt-20 opacity-10;
-}
-.footnotes {
-  @apply text-sm opacity-75;
-}
-.footnote-backref {
-  display: none;
-}
-</style>
+<Learning />
 
 ---
-
-# Components
-
-<div grid="~ cols-2 gap-4">
-<div>
-
-You can use Vue components directly inside your slides.
-
-We have provided a few built-in components like `<Tweet/>` and `<Youtube/>` that you can use directly. And adding your custom components is also super easy.
-
-```html
-<Counter :count="10" />
-```
-
-<!-- ./components/Counter.vue -->
-<Counter :count="10" m="t-4" />
-
-Check out [the guides](https://sli.dev/builtin/components.html) for more.
-
-</div>
-<div>
-
-```html
-<Tweet id="1390115482657726468" />
-```
-
-<Tweet id="1390115482657726468" scale="0.65" />
-
-</div>
-</div>
-
-<!--
-Presenter note with **bold**, *italic*, and ~~striked~~ text.
-
-Also, HTML elements are valid:
-<div class="flex w-full">
-  <span style="flex-grow: 1;">Left content</span>
-  <span>Right content</span>
-</div>
--->
-
-
----
-class: px-20
+layout: default
 ---
 
-# Themes
+# Filling in the gaps
+Life after the first taste
 
-Slidev comes with powerful theming support. Themes can provide styles, layouts, components, or even configurations for tools. Switching between themes by just **one edit** in your frontmatter:
-
-<div grid="~ cols-2 gap-2" m="-t-2">
-
-```yaml
----
-theme: default
----
-```
-
-```yaml
----
-theme: seriph
----
-```
-
-<img border="rounded" src="https://github.com/slidevjs/themes/blob/main/screenshots/theme-default/01.png?raw=true">
-
-<img border="rounded" src="https://github.com/slidevjs/themes/blob/main/screenshots/theme-seriph/01.png?raw=true">
-
-</div>
-
-Read more about [How to use a theme](https://sli.dev/themes/use.html) and
-check out the [Awesome Themes Gallery](https://sli.dev/themes/gallery.html).
+- Monsanto ending
+- TDK op
+- Capstone
+- TDK status 
+- Leaving TDk
+- Joining Perficient
 
 ---
 preload: false
@@ -575,4 +512,3 @@ class: text-center
 ---
 layout: end
 ---
-

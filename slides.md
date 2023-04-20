@@ -554,6 +554,7 @@ for me at least
 - Self managed
 
 ---
+
 # Hot takes
 things I have realized over the years
 

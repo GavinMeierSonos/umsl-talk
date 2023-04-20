@@ -116,7 +116,7 @@ h1 {
 <!--
 
 talking points
-from usmsl to software dev
+
 using focus to reach your goals
 interviewing in big tech
 life for me
@@ -475,10 +475,32 @@ Stepping stones on the path
 - Knowing the road for advancing and not holding the powers that be accountable
 - Hitting a stall point
 - Burning out (big time 👀)
-- Spending time on the wrong times
+- Spending time on the wrong things
 - Being one the smartest guys in the room (figure out speech I am not that cocky)
 
 [read this!](https://noidea.dog/glue)
+
+<!-- 
+- Doing glue work at too low of a level
+  - Spending a lot of time in meetings
+  - Planning and wasting time
+  - Not really having code to work on
+  - Getting rusty
+
+- Don't do manager stuff if you don't want to be a manager
+  - Don't let PMs failing, make you do their jobs
+  - Let them fail
+  - They will expect it from you, and you wiill be that person then
+
+- Hitting a stall point
+  - Not really being interested in the work
+  - NOt really feeling connected with the team
+  - Doing dev manager stuff
+  - Babysitting teams
+- Letting deadlines slide when I should have left (sept oh jan wait now june)
+- Learning stuff to just learn stuff that I lost knowledge on
+  - Use it or lose it
+-->
 
 ---
 
